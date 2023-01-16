@@ -1,7 +1,6 @@
 <script setup>
 import DamianKulp from "../components/DamianKulp.vue";
 import OverviewItem from "./OverviewItem.vue";
-//import HomeIcon from "./icons/IconHome.vue";
 import MusicIcon from "./icons/IconMusic.vue";
 import AccountIcon from "./icons/IconAccount.vue";
 import ChurchIcon from "./icons/IconChurch.vue";
@@ -22,7 +21,7 @@ import GameIcon from "./icons/IconGame.vue";
 			</template>
 			<template #heading>About</template>
 			I'm a seminarian at <a href="https://stots.edu" target="_blank" rel="noopener">St. Tikhon's Orthodox Theological Seminary</a>. 
-			In my free time I like to transcribe music, make little browser games, and raise my son (and another on the way) with my beautiful wife Lilly.
+			In my free time I like to teach kids music, transcribe music into English, make little browser games, and raise my son (and another on the way) with my beautiful wife Lilly.
 		</OverviewItem>
 
 		<OverviewItem>
@@ -30,7 +29,9 @@ import GameIcon from "./icons/IconGame.vue";
 				<MusicIcon />
 			</template>
 			<template #heading>Music</template>
-			I mostly transcribe Orthodox music into English these days, though I have a handful of original compositions.
+			I was an assistant director for the Heart of the Valley Children's Choir for about 6 years and now that I'm at St. Tikhon's, I'm an assistant director in the music school, working with middle and high school students.
+			I also transcribe Orthodox music into English, and I have a handful of original compositions.
+			Finally, I'm working on a music aggregation project which will specialize in storing church music.
 		</OverviewItem>
 
 		<OverviewItem>
