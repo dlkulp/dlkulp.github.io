@@ -41,7 +41,7 @@ import GameIcon from "./icons/IconGame.vue";
 						<GameIcon />
 					</template>
 					<template #heading>Games</template>
-					Since high school, I have enjoyed writing little browser games for competitions and for fun using Javascript and Typescript.
+					Since high school, I have enjoyed writing little browser games for competitions and for fun, using Javascript and Typescript.
 				</OverviewItem>
 
 				<!-- <OverviewItem>

@@ -10,6 +10,82 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 
 <template>
 	<Overview />
+	<PageSection color="678DBC">
+		<template #icon><MusicIcon /></template>
+		<template #title>Music</template>
+		<div class="content">
+			<div>
+				<p>I enjoy finding recordings of Orthodox music which only exists in other languages, and transcribing them to modern English scores for liturgical use.</p>
+				<p>None of these scores are original works though their transcription and translation into English is new. The general aim was to keep the melody as accurate to the original as possible while balancing natural English phrasing.</p>
+			</div>
+			<div class="grid">
+				<article>
+					<h3>Georgian</h3>
+					<ul>
+						<li><a target="_blank" href="/scores/Georgian/Full Dismissal - split.pdf">Dismissal</a></li>
+						<li><a target="_blank" href="/scores/Georgian/Many Years.pdf">Many Years</a></li>
+						<li><a target="_blank" href="/scores/Georgian/Memory Eternal.pdf">Memory Eternal</a></li>
+						<li><a target="_blank" href="/scores/Georgian/Ton Despotin.pdf">Ton Despotin</a></li>
+						<li><a target="_blank" href="/scores/Georgian/Georgian Paschal Troparion.pdf">Paschal Troparion (Transliterated only)</a></li>
+						<li><a target="_blank" href="/scores/Georgian/Alleluia.pdf">Alleluia</a></li>
+					</ul>
+				</article>
+				<article>
+					<h3>Early Slavic Polyphony</h3>
+					<ul>
+						<li><a target="_blank" href="/scores/Slavic Polyphony/Great Litany.pdf">Great Litany (harmonized)</a></li>
+						<li><a target="_blank" href="/scores/Slavic Polyphony/Let Our Mouths be Filled.pdf">Let Our Mouths Be Filled</a></li>
+					</ul>
+				</article>
+				<article>
+					<h3>Strochnoi</h3>
+					<ul>
+						<li><a target="_blank" href="/scores/Strochnoi/Great Litany.pdf">Great Litany</a></li>
+						<li><a target="_blank" href="/scores/Strochnoi/O Come Let Us Worship.pdf">Come Let Us Worship</a></li>
+						<li><a target="_blank" href="/scores/Strochnoi/Trisagion.pdf">Trisagion</a></li>
+						<li><a target="_blank" href="/scores/Strochnoi/Our Father.pdf">Our Father</a></li>
+					</ul>
+				</article>
+				<article>
+					<h3>Znamenny</h3>
+					<ul>
+						<li><a target="_blank" href="/scores/Znamenny/Great Litany.pdf">Great Litany</a></li>
+						<li><a target="_blank" href="/scores/Znamenny/First Antiphon.pdf">First Antiphon</a></li>
+						<li><a target="_blank" href="/scores/Znamenny/Second Typical Antiphon.pdf">Second Antiphon</a></li>
+						<!-- <li><a target="_blank" href="/scores/Znamenny/">God is with US</a></li> -->
+					</ul>
+				</article>
+			</div>
+			<article>
+				<h3>日本語 - Japanese</h3>
+				<p>この音楽は英語とスラヴ語から転写されています。 単語やフレーズを自然に保つように努めました。</p>
+				<ul>
+					<li class="nested">聖体礼儀</li>
+					<li class="nested"><ul>
+						<li><a target="_blank" href="/scores/日本語/連禱 - ストロクノイ.pdf">連禱のストロクノイ</a></li>
+						<li><a target="_blank" href="/scores/日本語/日本の大主教聖ニコライのトロパリ.pdf">日本の大主教聖ニコライのトロパリ</a></li>
+						<li><a target="_blank" href="/scores/日本語/聖なる神のビザンチンの三の調.pdf">聖なる神のビザンチンの三の調</a></li>
+						<li><a target="_blank" href="/scores/日本語/ヘルビムの歌 - 4 alleluia.pdf">ヘルビムの歌</a></li>
+						<li><a target="_blank" href="/scores/日本語/したしみのささげもの.pdf">したしみのささげもの</a></li>
+						<li><a target="_blank" href="/scores/日本語/天にいますの四旬節の旋.pdf">天にいますの四旬節の旋</a></li>
+						<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を受けのアラスカのメロディ.pdf">ハリストスの聖体を受けのアラスカのメロディ</a></li>
+						<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を領け.pdf">ハリストスの聖体を領け</a></li>
+						<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を領けの一部.pdf">ハリストスの聖体を領けの一部</a></li>
+						<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を領けの四部.pdf">ハリストスの聖体を領けの四部</a></li>
+						<li><a target="_blank" href="/scores/日本語/万寿詞.pdf">万寿詞</a></li>
+					</ul></li>
+					<li class="nested">徹夜祷</li>
+					<li class="nested"><ul>
+						<li><a target="_blank" href="/scores/日本語/穏やかなる光.pdf">穏やかなる光 - O Gladsome Light w/ transliteration</a></li>
+					</ul></li>
+					<li class="nested">復活祭</li>
+					<li class="nested"><ul>
+						<li><a target="_blank" href="/scores/日本語/ハリストス死よりふくかつし.pdf">ハリストス死よりふくかつし - Paschal troparion w/ transliteration</a></li>
+					</ul></li>
+				</ul>
+			</article>
+		</div>
+	</PageSection>
 	<PageSection color="467545">
 		<template #icon><GameIcon /></template>
 		<template #title>Games</template>
@@ -23,11 +99,6 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 			</ul>
 		</div>
 	</PageSection>
-	<!-- <PageSection color="678DBC">
-		<template #icon><MusicIcon /></template>
-		<template #title>Music</template>
-		List of scores
-	</PageSection> -->
 	<!-- <PageSection color="88665D">
 		<template #icon><ChurchIcon /></template>
 		<template #title>Ministry</template>
@@ -38,15 +109,31 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 <style scoped>
 .content {
 	margin-top: 4.5rem;
-	display: grid;
-	place-items: center;
-	align-items: center;
-	place-content: center;
+	display: inline-grid;
+	grid-template-columns: auto;
+	column-gap: 10px;
+	row-gap: 20px;
+}
+
+.nested {
+	list-style-type: none;
+}
+
+.grid {
+	display: inline-grid;
+	grid-template-columns: auto auto;
+	place-content: left;
+	row-gap: 10px;
+}
+
+.grid article {
+	width: 100%;
 }
 
 @media (min-width: 1024px) {
 	.content {
 		margin-top: 2.5rem;
+		grid-template-columns: 33% 33% 33%;
 	}
 }
 </style>
