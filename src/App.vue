@@ -15,7 +15,7 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 		<template #title>Music</template>
 		<div class="content">
 			<div>
-				<p>I enjoy finding recordings of Orthodox music which only exists in other languages, and transcribing them to modern English scores for liturgical use.</p>
+				<p>I enjoy finding recordings of Orthodox music which only exist in other languages, and transcribing them to modern English scores for liturgical use.</p>
 				<p>None of these scores are original works though their transcription and translation into English is new. The general aim was to keep the melody as accurate to the original as possible while balancing natural English phrasing.</p>
 			</div>
 			<div class="grid">
@@ -56,7 +56,7 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 					</ul>
 				</article>
 			</div>
-			<div>
+			<div class="japanese">
 				<h3>日本語 - Japanese</h3>
 				<p>この音楽は英語とスラヴ語から転写されています。 単語やフレーズを自然に保つように努めました。</p>
 				<div class="grid">
@@ -79,12 +79,12 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 					<article>
 						<h3>徹夜祷</h3>
 						<ul>
-							<li><a target="_blank" href="/scores/日本語/穏やかなる光.pdf">穏やかなる光 - O Gladsome Light w/ transliteration</a></li>
+							<li><a target="_blank" href="/scores/日本語/穏やかなる光.pdf">穏やかなる光</a></li><!--O Gladsome Light w/ transliteration-->
 						</ul>
 						<br />
 						<h3>復活祭</h3>
 						<ul>
-							<li><a target="_blank" href="/scores/日本語/ハリストス死よりふくかつし.pdf">ハリストス死よりふくかつし - Paschal troparion w/ transliteration</a></li>
+							<li><a target="_blank" href="/scores/日本語/ハリストス死よりふくかつし.pdf">ハリストス死よりふくかつし</a></li><!--Paschal troparion w/ transliteration-->
 						</ul>
 					</article>
 				</div>
@@ -95,7 +95,7 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 		<template #icon><GameIcon /></template>
 		<template #title>Games</template>
 		<div class="content">
-			<p>Over the years I have competed in a few 24-hour programming competitions. Most of these project continued being worked on after the intial 24-hour period to add some remaining features and fix bugs.</p>
+			<p>Over the years I have competed in a few 24-hour programming competitions. Most of these projects continued being worked on after the intial 24-hour period to add some remaining features and fix bugs. Enjoy!</p>
 			<article>
 				<h3>College</h3>
 				<ul>
@@ -130,8 +130,9 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 	row-gap: 20px;
 }
 
-.nested {
-	list-style-type: none;
+.japanese {
+	writing-mode: vertical-rl;
+	text-orientation: upright;
 }
 
 .grid {
