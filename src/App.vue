@@ -56,34 +56,39 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 					</ul>
 				</article>
 			</div>
-			<article>
+			<div>
 				<h3>日本語 - Japanese</h3>
 				<p>この音楽は英語とスラヴ語から転写されています。 単語やフレーズを自然に保つように努めました。</p>
-				<ul>
-					<li class="nested">聖体礼儀</li>
-					<li class="nested"><ul>
-						<li><a target="_blank" href="/scores/日本語/連禱 - ストロクノイ.pdf">連禱のストロクノイ</a></li>
-						<li><a target="_blank" href="/scores/日本語/日本の大主教聖ニコライのトロパリ.pdf">日本の大主教聖ニコライのトロパリ</a></li>
-						<li><a target="_blank" href="/scores/日本語/聖なる神のビザンチンの三の調.pdf">聖なる神のビザンチンの三の調</a></li>
-						<li><a target="_blank" href="/scores/日本語/ヘルビムの歌 - 4 alleluia.pdf">ヘルビムの歌</a></li>
-						<li><a target="_blank" href="/scores/日本語/したしみのささげもの.pdf">したしみのささげもの</a></li>
-						<li><a target="_blank" href="/scores/日本語/天にいますの四旬節の旋.pdf">天にいますの四旬節の旋</a></li>
-						<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を受けのアラスカのメロディ.pdf">ハリストスの聖体を受けのアラスカのメロディ</a></li>
-						<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を領け.pdf">ハリストスの聖体を領け</a></li>
-						<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を領けの一部.pdf">ハリストスの聖体を領けの一部</a></li>
-						<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を領けの四部.pdf">ハリストスの聖体を領けの四部</a></li>
-						<li><a target="_blank" href="/scores/日本語/万寿詞.pdf">万寿詞</a></li>
-					</ul></li>
-					<li class="nested">徹夜祷</li>
-					<li class="nested"><ul>
-						<li><a target="_blank" href="/scores/日本語/穏やかなる光.pdf">穏やかなる光 - O Gladsome Light w/ transliteration</a></li>
-					</ul></li>
-					<li class="nested">復活祭</li>
-					<li class="nested"><ul>
-						<li><a target="_blank" href="/scores/日本語/ハリストス死よりふくかつし.pdf">ハリストス死よりふくかつし - Paschal troparion w/ transliteration</a></li>
-					</ul></li>
-				</ul>
-			</article>
+				<div class="grid">
+					<article>
+						<h3>聖体礼儀</h3>
+						<ul>
+							<li><a target="_blank" href="/scores/日本語/連禱 - ストロクノイ.pdf">連禱のストロクノイ</a></li>
+							<li><a target="_blank" href="/scores/日本語/日本の大主教聖ニコライのトロパリ.pdf">日本の大主教聖ニコライのトロパリ</a></li>
+							<li><a target="_blank" href="/scores/日本語/聖なる神のビザンチンの三の調.pdf">聖なる神のビザンチンの三の調</a></li>
+							<li><a target="_blank" href="/scores/日本語/ヘルビムの歌 - 4 alleluia.pdf">ヘルビムの歌</a></li>
+							<li><a target="_blank" href="/scores/日本語/したしみのささげもの.pdf">したしみのささげもの</a></li>
+							<li><a target="_blank" href="/scores/日本語/天にいますの四旬節の旋.pdf">天にいますの四旬節の旋</a></li>
+							<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を受けのアラスカのメロディ.pdf">ハリストスの聖体を受けのアラスカのメロディ</a></li>
+							<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を領け.pdf">ハリストスの聖体を領け</a></li>
+							<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を領けの一部.pdf">ハリストスの聖体を領けの一部</a></li>
+							<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を領けの四部.pdf">ハリストスの聖体を領けの四部</a></li>
+							<li><a target="_blank" href="/scores/日本語/万寿詞.pdf">万寿詞</a></li>
+						</ul>
+					</article>
+					<article>
+						<h3>徹夜祷</h3>
+						<ul>
+							<li><a target="_blank" href="/scores/日本語/穏やかなる光.pdf">穏やかなる光 - O Gladsome Light w/ transliteration</a></li>
+						</ul>
+						<br />
+						<h3>復活祭</h3>
+						<ul>
+							<li><a target="_blank" href="/scores/日本語/ハリストス死よりふくかつし.pdf">ハリストス死よりふくかつし - Paschal troparion w/ transliteration</a></li>
+						</ul>
+					</article>
+				</div>
+			</div>
 		</div>
 	</PageSection>
 	<PageSection color="467545">
@@ -91,12 +96,22 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 		<template #title>Games</template>
 		<div class="content">
 			<p>Over the years I have competed in a few 24-hour programming competitions. Most of these project continued being worked on after the intial 24-hour period to add some remaining features and fix bugs.</p>
-			<ul>
-				<li><a href="https://gl0vgames.github.io/SneakySnake/" target="_blank">Sneaky Snake</a>: Isometric snake. Don't let the blocks see you (or your tail) as you sneak around procedurally generated levels.</li>
-				<li><a href="https://gl0vgames.github.io/McClaneSim/" target="_blank">McClane Sim</a>: Die Hard's John McClane must navigate a procedurally generated building, finding weapons and other items to assist him in freeing the hostages from the terrorists while trying to stay alive. It's also a text adventure.</li>
-				<li><a href="https://gl0vgames.github.io/S6/" target="_blank">S6</a>: Receive a description of your target, sneak around guards, and sling you slightly sulferous smelling smoke when you find the matching target.</li>
-				<li><a href="https://fauzikliman.com/GameOfLife-3.0/" target="_blank">Game of Life 3.0</a>: Sequel to the unreleased GoL 2.0, this version uses a procedurally generated map with different values for different types of tiles.</li>
-			</ul>
+			<article>
+				<h3>College</h3>
+				<ul>
+					<li><a href="https://gl0vgames.github.io/SneakySnake/" target="_blank">Sneaky Snake</a>: Isometric snake. Don't let the blocks see you (or your tail) as you sneak around procedurally generated levels.</li>
+					<li><a href="https://gl0vgames.github.io/McClaneSim/" target="_blank">McClane Sim</a>: Die Hard's John McClane must navigate a procedurally generated building, finding weapons and other items to assist him in freeing the hostages from the terrorists while trying to stay alive. It's also a text adventure.</li>
+					<li><a href="https://gl0vgames.github.io/S6/" target="_blank">S6</a>: Receive a description of your target, sneak around guards, and sling you slightly sulferous smelling smoke when you find the matching target.</li>
+					<li><a href="https://fauzikliman.com/GameOfLife-3.0/" target="_blank">Game of Life 3.0</a>: Sequel to the unreleased GoL 2.0, this version uses a procedurally generated map with different values for different types of tiles.</li>
+				</ul>
+			</article>
+			<article>
+				<h3>High School</h3>
+				<ul>
+					<li><a href="https://tms.ogpc.info/Games/Details/717d0268-8e1a-4c10-8874-98284daec59c" target="_blank">Concepta</a>: A flying game. Help the idea of revolution spread through a population before battling the final boss in the town center.</li>
+					<li><a href="https://tms.ogpc.info/Games/Details/3b2e1f39-c91c-45f9-9cdf-8d4a1ee7e11b" target="_blank">Zoning Wars</a>: A two person card game which encourages creating proper city zones.</li>
+				</ul>
+			</article>
 		</div>
 	</PageSection>
 	<!-- <PageSection color="88665D">
@@ -133,7 +148,7 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 @media (min-width: 1024px) {
 	.content {
 		margin-top: 2.5rem;
-		grid-template-columns: 33% 33% 33%;
+		grid-template-columns: 25% 37.5% 37.5%;
 	}
 }
 </style>

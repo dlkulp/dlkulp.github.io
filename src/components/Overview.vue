@@ -57,14 +57,18 @@ import GameIcon from "./icons/IconGame.vue";
 </template>
 
 <style>
+.overview {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
 .overview .center {
 	max-width: 1280px;
+	height: 100%;
 	margin: 0 auto;
 	padding: 2rem;
-}
-
-.overview #content {
-	height: 80%;
+	display: inline-grid;
+	place-items: center;
+	grid-template-columns: auto auto;
 }
 
 .overview header {
