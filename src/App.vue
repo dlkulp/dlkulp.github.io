@@ -64,7 +64,9 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 			</div>
 			<div class="japanese">
 				<h3>日本語 - Japanese</h3>
-				<p>この音楽は英語とスラヴ語から転写されています。 単語やフレーズを自然に保つように努めました。</p>
+				<p>この音楽は英語とスラヴ語から転写されています。</p>
+				<p>単語やフレーズを自然に保つように努めました。</p>
+				<br />
 				<div class="grid">
 					<article>
 						<h3>聖体礼儀</h3>
