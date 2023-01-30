@@ -29,6 +29,10 @@ header {
 	place-items: center;
 	align-items: center;
 	place-content: center;
+	font-size: 1.25em;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: var(--vt-c-white);
 }
 
 i {
@@ -37,7 +41,6 @@ i {
 	place-content: center;
 	width: 32px;
 	height: 32px;
-	color: var(--color-text);
 }
 
 h2 {

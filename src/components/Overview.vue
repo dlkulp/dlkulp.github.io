@@ -60,6 +60,7 @@ import GameIcon from "./icons/IconGame.vue";
 .overview {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+	display: grid;
 }
 .overview .center {
 	max-width: 1280px;

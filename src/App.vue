@@ -10,7 +10,7 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 
 <template>
 	<Overview />
-	<PageSection color="678DBC">
+	<PageSection color="19a7b9">
 		<template #icon><MusicIcon /></template>
 		<template #title>Music</template>
 		<div class="content">
@@ -55,6 +55,12 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 						<!-- <li><a target="_blank" href="/scores/Znamenny/">God is with US</a></li> -->
 					</ul>
 				</article>
+				<article>
+					<h3>Misc</h3>
+					<ul>
+						<li><a target="_blank" href="/scores/Misc/Only Begotten Son - satb.pdf">Only Begotten Son - SATB</a></li>
+					</ul>
+				</article>
 			</div>
 			<div class="japanese">
 				<h3>日本語 - Japanese</h3>
@@ -91,7 +97,7 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 			</div>
 		</div>
 	</PageSection>
-	<PageSection color="467545">
+	<PageSection color="DE3C4B">
 		<template #icon><GameIcon /></template>
 		<template #title>Games</template>
 		<div class="content">
@@ -119,11 +125,16 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 		<template #title>Ministry</template>
 		Stuff about minstry
 	</PageSection> -->
+	<footer>
+		<p>
+			Website design and content:<br />© Damian Kulp {{new Date().getFullYear()}}
+		</p>
+	</footer>
 </template>
 
 <style scoped>
 .content {
-	margin-top: 4.5rem;
+	margin-top: 5.5rem;
 	display: inline-grid;
 	grid-template-columns: auto;
 	column-gap: 10px;
@@ -146,9 +157,19 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 	width: 100%;
 }
 
+footer {
+	width: 100%;
+	display: grid;
+	border-top: 2px solid var(--color-border);
+}
+
+footer p {
+	text-align: center;
+}
+
 @media (min-width: 1024px) {
 	.content {
-		margin-top: 2.5rem;
+		margin-top: 3.5rem;
 		grid-template-columns: 25% 37.5% 37.5%;
 	}
 }
