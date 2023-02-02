@@ -51,7 +51,7 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 						<h3>Znamenny</h3>
 						<ul>
 							<li><a target="_blank" href="/scores/Znamenny/Great Litany.pdf">Great Litany</a></li>
-							<li><a target="_blank" href="/scores/Znamenny/First Antiphon.pdf">First Antiphon</a></li>
+							<li><a target="_blank" href="/scores/Znamenny/First Typical Antiphon.pdf">First Antiphon</a></li>
 							<li><a target="_blank" href="/scores/Znamenny/Second Typical Antiphon.pdf">Second Antiphon</a></li>
 							<!-- <li><a target="_blank" href="/scores/Znamenny/">God is with US</a></li> -->
 						</ul>
