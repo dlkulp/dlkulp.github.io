@@ -35,7 +35,7 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 						<h3>Early Slavic Polyphony</h3>
 						<ul>
 							<li><a target="_blank" href="/scores/Slavic Polyphony/Great Litany.pdf">Great Litany (harmonized)</a></li>
-							<li><a target="_blank" href="/scores/Slavic Polyphony/Let Our Mouths be Filled.pdf">Let Our Mouths Be Filled</a></li>
+							<li><a target="_blank" href="/scores/Slavic Polyphony/We Have Seen the True Light.pdf">We Have Seen the True Light</a></li>
 						</ul>
 					</article>
 					<article>
