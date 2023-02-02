@@ -23,8 +23,8 @@ onMounted(() => header.value.style.backgroundColor = `#${props.color}`);
 <style scoped>
 header {
 	position: absolute;
-	left: -2rem;
-	width: calc(100% + 2rem);
+	left: -1rem;
+	width: calc(100% + 1rem);
 	display: grid;
 	place-items: center;
 	align-items: center;

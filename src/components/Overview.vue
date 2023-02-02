@@ -69,7 +69,7 @@ import GameIcon from "./icons/IconGame.vue";
 	padding: 2rem;
 	display: inline-grid;
 	place-items: center;
-	grid-template-columns: auto auto;
+	grid-template-columns: auto;
 }
 
 .overview header {
@@ -96,6 +96,10 @@ import GameIcon from "./icons/IconGame.vue";
 		display: flex;
 		place-items: flex-start;
 		flex-wrap: wrap;
+	}
+
+	.overview .center {
+		grid-template-columns: auto auto;
 	}
 }
 </style>

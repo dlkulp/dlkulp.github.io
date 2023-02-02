@@ -19,55 +19,65 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 				<p>None of these scores are original works though their transcription and translation into English is new. The general aim was to keep the melody as accurate to the original as possible while balancing natural English phrasing.</p>
 			</div>
 			<div class="grid">
-				<article>
-					<h3>Georgian</h3>
-					<ul>
-						<li><a target="_blank" href="/scores/Georgian/Full Dismissal - split.pdf">Dismissal</a></li>
-						<li><a target="_blank" href="/scores/Georgian/Many Years.pdf">Many Years</a></li>
-						<li><a target="_blank" href="/scores/Georgian/Memory Eternal.pdf">Memory Eternal</a></li>
-						<li><a target="_blank" href="/scores/Georgian/Ton Despotin.pdf">Ton Despotin</a></li>
-						<li><a target="_blank" href="/scores/Georgian/Georgian Paschal Troparion.pdf">Paschal Troparion (Transliterated only)</a></li>
-						<li><a target="_blank" href="/scores/Georgian/Alleluia.pdf">Alleluia</a></li>
-					</ul>
-				</article>
-				<article>
-					<h3>Early Slavic Polyphony</h3>
-					<ul>
-						<li><a target="_blank" href="/scores/Slavic Polyphony/Great Litany.pdf">Great Litany (harmonized)</a></li>
-						<li><a target="_blank" href="/scores/Slavic Polyphony/Let Our Mouths be Filled.pdf">Let Our Mouths Be Filled</a></li>
-					</ul>
-				</article>
-				<article>
-					<h3>Strochnoi</h3>
-					<ul>
-						<li><a target="_blank" href="/scores/Strochnoi/Great Litany.pdf">Great Litany</a></li>
-						<li><a target="_blank" href="/scores/Strochnoi/O Come Let Us Worship.pdf">Come Let Us Worship</a></li>
-						<li><a target="_blank" href="/scores/Strochnoi/Trisagion.pdf">Trisagion</a></li>
-						<li><a target="_blank" href="/scores/Strochnoi/Our Father.pdf">Our Father</a></li>
-					</ul>
-				</article>
-				<article>
-					<h3>Znamenny</h3>
-					<ul>
-						<li><a target="_blank" href="/scores/Znamenny/Great Litany.pdf">Great Litany</a></li>
-						<li><a target="_blank" href="/scores/Znamenny/First Antiphon.pdf">First Antiphon</a></li>
-						<li><a target="_blank" href="/scores/Znamenny/Second Typical Antiphon.pdf">Second Antiphon</a></li>
-						<!-- <li><a target="_blank" href="/scores/Znamenny/">God is with US</a></li> -->
-					</ul>
-				</article>
-				<article>
-					<h3>Misc</h3>
-					<ul>
-						<li><a target="_blank" href="/scores/Misc/Only Begotten Son - satb.pdf">Only Begotten Son - SATB</a></li>
-					</ul>
-				</article>
-			</div>
-			<div class="japanese">
-				<h3>日本語 - Japanese</h3>
-				<p>この音楽は英語とスラヴ語から転写されています。</p>
-				<p>単語やフレーズを自然に保つように努めました。</p>
-				<br />
 				<div class="grid">
+					<article>
+						<h3>Georgian</h3>
+						<ul>
+							<li><a target="_blank" href="/scores/Georgian/Full Dismissal - split.pdf">Dismissal</a></li>
+							<li><a target="_blank" href="/scores/Georgian/Many Years.pdf">Many Years</a></li>
+							<li><a target="_blank" href="/scores/Georgian/Memory Eternal.pdf">Memory Eternal</a></li>
+							<li><a target="_blank" href="/scores/Georgian/Ton Despotin.pdf">Ton Despotin</a></li>
+							<li><a target="_blank" href="/scores/Georgian/Georgian Paschal Troparion.pdf">Paschal Troparion (Transliterated only)</a></li>
+							<li><a target="_blank" href="/scores/Georgian/Alleluia.pdf">Alleluia</a></li>
+						</ul>
+					</article>
+					<article>
+						<h3>Early Slavic Polyphony</h3>
+						<ul>
+							<li><a target="_blank" href="/scores/Slavic Polyphony/Great Litany.pdf">Great Litany (harmonized)</a></li>
+							<li><a target="_blank" href="/scores/Slavic Polyphony/Let Our Mouths be Filled.pdf">Let Our Mouths Be Filled</a></li>
+						</ul>
+					</article>
+					<article>
+						<h3>Strochnoi</h3>
+						<ul>
+							<li><a target="_blank" href="/scores/Strochnoi/Great Litany.pdf">Great Litany</a></li>
+							<li><a target="_blank" href="/scores/Strochnoi/O Come Let Us Worship.pdf">Come Let Us Worship</a></li>
+							<li><a target="_blank" href="/scores/Strochnoi/Trisagion.pdf">Trisagion</a></li>
+							<li><a target="_blank" href="/scores/Strochnoi/Our Father.pdf">Our Father</a></li>
+						</ul>
+					</article>
+					<article>
+						<h3>Znamenny</h3>
+						<ul>
+							<li><a target="_blank" href="/scores/Znamenny/Great Litany.pdf">Great Litany</a></li>
+							<li><a target="_blank" href="/scores/Znamenny/First Antiphon.pdf">First Antiphon</a></li>
+							<li><a target="_blank" href="/scores/Znamenny/Second Typical Antiphon.pdf">Second Antiphon</a></li>
+							<!-- <li><a target="_blank" href="/scores/Znamenny/">God is with US</a></li> -->
+						</ul>
+					</article>
+					<article>
+						<h3>Misc</h3>
+						<ul>
+							<li><a target="_blank" href="/scores/Misc/Only Begotten Son - satb.pdf">Only Begotten Son - SATB</a></li>
+						</ul>
+					</article>
+				</div>
+				<div class="grid japanese">
+					<article>
+						<h3>日本語 - Japanese</h3>
+						<p>この音楽は英語とスラヴ語から転写されています。</p>
+						<p>単語やフレーズを自然に保つように努めました。</p>
+						<br />
+						<h3>徹夜祷</h3>
+						<ul>
+							<li><a target="_blank" href="/scores/日本語/穏やかなる光.pdf">穏やかなる光</a></li><!--O Gladsome Light w/ transliteration-->
+						</ul>
+						<h3>復活祭</h3>
+						<ul>
+							<li><a target="_blank" href="/scores/日本語/ハリストス死よりふくかつし.pdf">ハリストス死よりふくかつし</a></li><!--Paschal troparion w/ transliteration-->
+						</ul>
+					</article>
 					<article>
 						<h3>聖体礼儀</h3>
 						<ul>
@@ -84,17 +94,7 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 							<li><a target="_blank" href="/scores/日本語/万寿詞.pdf">万寿詞</a></li>
 						</ul>
 					</article>
-					<article>
-						<h3>徹夜祷</h3>
-						<ul>
-							<li><a target="_blank" href="/scores/日本語/穏やかなる光.pdf">穏やかなる光</a></li><!--O Gladsome Light w/ transliteration-->
-						</ul>
-						<br />
-						<h3>復活祭</h3>
-						<ul>
-							<li><a target="_blank" href="/scores/日本語/ハリストス死よりふくかつし.pdf">ハリストス死よりふくかつし</a></li><!--Paschal troparion w/ transliteration-->
-						</ul>
-					</article>
+					
 				</div>
 			</div>
 		</div>
@@ -137,21 +137,18 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 <style scoped>
 .content {
 	margin-top: 5.5rem;
-	display: inline-grid;
-	grid-template-columns: auto;
-	column-gap: 10px;
-	row-gap: 20px;
 }
 
 .japanese {
 	writing-mode: vertical-rl;
 	text-orientation: upright;
+	grid-template-columns: auto auto !important;
 }
 
 .grid {
-	display: inline-grid;
-	grid-template-columns: auto auto;
-	place-content: left;
+	display: grid;
+	grid-template-columns: auto;
+	place-content: center;
 	row-gap: 10px;
 }
 
@@ -173,6 +170,12 @@ footer p {
 	.content {
 		margin-top: 3.5rem;
 		grid-template-columns: 25% 37.5% 37.5%;
+	}
+	.grid {
+		grid-template-columns: auto auto;
+	}
+	.japanese {
+		grid-template-columns: auto auto auto !important;
 	}
 }
 </style>
