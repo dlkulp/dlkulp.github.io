@@ -16,19 +16,19 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 		<div class="content">
 			<div>
 				<p>I enjoy finding recordings of Orthodox music which only exist in other languages, and transcribing them to modern English scores for liturgical use.</p>
-				<p>None of these scores are original works though their transcription and translation into English is new. The general aim was to keep the melody as accurate to the original as possible while balancing natural English phrasing.</p>
+				<p>None of these scores are original works though their transcription and translation into English is new (at least as far as I'm aware). The general aim was to keep the melody as accurate to the original as possible while balancing natural English phrasing.</p>
 			</div>
 			<div class="grid">
 				<div class="grid">
 					<article>
 						<h3>Georgian</h3>
 						<ul>
+							<li><a target="_blank" href="/scores/Georgian/Ton Despotin.pdf">Ton Despotin</a></li>
+							<li><a target="_blank" href="/scores/Georgian/Alleluia.pdf">Alleluia</a></li>
+							<li><a target="_blank" href="/scores/Georgian/Georgian Paschal Troparion.pdf">Paschal Troparion (Transliterated only)</a></li>
 							<li><a target="_blank" href="/scores/Georgian/Full Dismissal - split.pdf">Dismissal</a></li>
 							<li><a target="_blank" href="/scores/Georgian/Many Years.pdf">Many Years</a></li>
 							<li><a target="_blank" href="/scores/Georgian/Memory Eternal.pdf">Memory Eternal</a></li>
-							<li><a target="_blank" href="/scores/Georgian/Ton Despotin.pdf">Ton Despotin</a></li>
-							<li><a target="_blank" href="/scores/Georgian/Georgian Paschal Troparion.pdf">Paschal Troparion (Transliterated only)</a></li>
-							<li><a target="_blank" href="/scores/Georgian/Alleluia.pdf">Alleluia</a></li>
 						</ul>
 					</article>
 					<article>
