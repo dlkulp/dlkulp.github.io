@@ -57,6 +57,13 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 						</ul>
 					</article>
 					<article>
+						<h3>Special Melodies - Podobni</h3>
+						<ul>
+							<li><a target="_blank" href="/scores/Podobni/Joy of the Heavenly Hosts - satb.pdf">Joy of the Heavenly Hosts - Cheat sheet</a></li>
+							<li><a target="_blank" href="/scores/Podobni/Having Placed All Their Hope - satb.pdf">Having Placed All Their Hope - Cheat sheet</a></li>
+						</ul>
+					</article>
+					<article>
 						<h3>Misc</h3>
 						<ul>
 							<li><a target="_blank" href="/scores/Misc/Only Begotten Son - satb.pdf">Only Begotten Son - SATB</a></li>
