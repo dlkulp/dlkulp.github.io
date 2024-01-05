@@ -23,7 +23,7 @@ import GameIcon from "./icons/IconGame.vue";
 					</template>
 					<template #heading>About</template>
 					I'm a seminarian at <a href="https://stots.edu" target="_blank" rel="noopener">St. Tikhon's Orthodox Theological Seminary</a>. 
-					In my free time I like to teach kids music, transcribe music into English, make little browser games, and raise my son (and another on the way) with my beautiful wife Lilly.
+					In my free time I like to teach kids music, transcribe music into English, make little browser games, and raise my two sons with my beautiful wife.
 				</OverviewItem>
 
 				<OverviewItem>
