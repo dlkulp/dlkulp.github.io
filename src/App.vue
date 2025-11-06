@@ -67,7 +67,7 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 					<article>
 						<h3>American</h3>
 						<ul>
-							<li><a target="_blank" href="/scores/Misc/American Holy God.pdf">Holy God - American Themes</a></li>
+							<li><a target="_blank" href="/scores/American/American Holy God.pdf">Holy God - American Themes</a></li>
 						</ul>
 					</article>
 					<article>
