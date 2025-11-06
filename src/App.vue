@@ -59,14 +59,22 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 					<article>
 						<h3>Special Melodies - Podobni</h3>
 						<ul>
+							<li><a target="_blank" href="/scores/Podobni/Go Forth Ye Angelic Hosts - satb.pdf">Go Forth Ye Angelic Hosts</a></li>
 							<li><a target="_blank" href="/scores/Podobni/Joy of the Heavenly Hosts - satb.pdf">Joy of the Heavenly Hosts - Cheat sheet</a></li>
 							<li><a target="_blank" href="/scores/Podobni/Having Placed All Their Hope - satb.pdf">Having Placed All Their Hope - Cheat sheet</a></li>
+						</ul>
+					</article>
+					<article>
+						<h3>American</h3>
+						<ul>
+							<li><a target="_blank" href="/scores/Misc/American Holy God.pdf">Holy God - American Themes</a></li>
 						</ul>
 					</article>
 					<article>
 						<h3>Misc</h3>
 						<ul>
 							<li><a target="_blank" href="/scores/Misc/Only Begotten Son - satb.pdf">Only Begotten Son - SATB</a></li>
+							<li><a target="_blank" href="/scores/Misc/Cherubic Hymn - St Elizabeth.pdf">Cherubic Hymn - St. Elizabeth's Convent</a></li>
 						</ul>
 					</article>
 				</div>
@@ -99,6 +107,7 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 							<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を領けの一部.pdf">ハリストスの聖体を領けの一部</a></li>
 							<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を領けの四部.pdf">ハリストスの聖体を領けの四部</a></li>
 							<li><a target="_blank" href="/scores/日本語/万寿詞.pdf">万寿詞</a></li>
+							<li><a target="_blank" href="/scores/日本語/穏やかなる光の四部.pdf">穏やかなる光の四部</a></li>
 						</ul>
 					</article>
 					

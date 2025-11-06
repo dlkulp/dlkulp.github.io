@@ -43,14 +43,6 @@ import GameIcon from "./icons/IconGame.vue";
 					<template #heading>Games</template>
 					Since high school, I have enjoyed writing little browser games for competitions and for fun, using Javascript and Typescript.
 				</OverviewItem>
-
-				<!-- <OverviewItem>
-					<template #icon>
-						<ChurchIcon />
-					</template>
-					<template #heading>Ministry</template>
-					As a seminarian, I will be working with St. Patrick mission in Newport, OR summer of 2023 for my internship.
-				</OverviewItem> -->
 			</article>
 		</div>
 	</section>
