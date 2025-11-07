@@ -88,6 +88,7 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 						<h3>徹夜祷</h3>
 						<ul>
 							<li><a target="_blank" href="/scores/日本語/穏やかなる光.pdf">穏やかなる光</a></li><!--O Gladsome Light w/ transliteration-->
+							<li><a target="_blank" href="/scores/日本語/穏やかなる光の四部.pdf">穏やかなる光の四部</a></li><!--O Gladsome Light (4p) w/ transliteration-->
 						</ul>
 						<h3>復活祭</h3>
 						<ul>
@@ -108,10 +109,8 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 							<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を領けの一部.pdf">ハリストスの聖体を領けの一部</a></li>
 							<li><a target="_blank" href="/scores/日本語/ハリストスの聖体を領けの四部.pdf">ハリストスの聖体を領けの四部</a></li>
 							<li><a target="_blank" href="/scores/日本語/万寿詞.pdf">万寿詞</a></li>
-							<li><a target="_blank" href="/scores/日本語/穏やかなる光の四部.pdf">穏やかなる光の四部</a></li>
 						</ul>
 					</article>
-					
 				</div>
 			</div>
 		</div>
