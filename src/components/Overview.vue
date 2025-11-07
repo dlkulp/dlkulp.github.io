@@ -22,7 +22,7 @@ import GameIcon from "./icons/IconGame.vue";
 						<AccountIcon />
 					</template>
 					<template #heading>About</template>
-					I'm an Orthodox priest at <a href="https://stchrisitinaorthodox.org" target="_blank" rel="noopener">St. Christina Orthodox Church</a>. 
+					I'm an Orthodox priest at <a href="https://stchristinaorthodox.org" target="_blank" rel="noopener">St. Christina Orthodox Church</a>. 
 					In my free time I like to teach kids music, transcribe music into English, make little browser games, and raise my two sons with my beautiful wife.
 				</OverviewItem>
 
