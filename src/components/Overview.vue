@@ -22,7 +22,7 @@ import GameIcon from "./icons/IconGame.vue";
 						<AccountIcon />
 					</template>
 					<template #heading>About</template>
-					I'm a seminarian at <a href="https://stots.edu" target="_blank" rel="noopener">St. Tikhon's Orthodox Theological Seminary</a>. 
+					I'm an Orthodox priest at <a href="https://stchrisitinaorthodox.org" target="_blank" rel="noopener">St. Christina Orthodox Church</a>. 
 					In my free time I like to teach kids music, transcribe music into English, make little browser games, and raise my two sons with my beautiful wife.
 				</OverviewItem>
 
@@ -31,9 +31,8 @@ import GameIcon from "./icons/IconGame.vue";
 						<MusicIcon />
 					</template>
 					<template #heading>Music</template>
-					I was an assistant director for the Heart of the Valley Children's Choir for about 6 years and now that I'm at St. Tikhon's, I'm an assistant director in the music school, working with middle and high school students.
+					I was an assistant director for the Heart of the Valley Children's Choir for about 6 years and taught middle and high school students in the music school at St. Tikhon's Orthodox Theological Seminary.
 					I also transcribe Orthodox music into English, and I have a handful of original compositions.
-					Finally, I'm working on a music aggregation project which will specialize in storing church music.
 				</OverviewItem>
 
 				<OverviewItem>
@@ -41,7 +40,7 @@ import GameIcon from "./icons/IconGame.vue";
 						<GameIcon />
 					</template>
 					<template #heading>Games</template>
-					Since high school, I have enjoyed writing little browser games for competitions and for fun, using Javascript and Typescript.
+					Since high school, I have enjoyed writing little browser games for competitions and for fun, using Javascript and Typescript. Nothing too serious, just fun little adventures in coding.
 				</OverviewItem>
 			</article>
 		</div>
