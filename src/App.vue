@@ -16,7 +16,8 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 		<div class="content">
 			<div>
 				<p>I enjoy finding recordings of Orthodox music which only exist in other languages, and transcribing them to modern English scores for liturgical use.</p>
-				<p>None of these scores are original works though their transcription and translation into English is new (at least as far as I'm aware). The general aim was to keep the melody as accurate to the original as possible while balancing natural English phrasing.</p>
+				<p>Most of these scores are not original works though their transcription and translation into English is new (at least as far as I'm aware). The general aim was to keep the melody as accurate to the original as possible while balancing natural English phrasing.</p>
+				<p>The scores in the "American" section are new compositions which take well-known folk melodies and try to adapt them into "church music." As always, natural phrasing was prioritized over keeping the original melodies intact. Enjoy!</p>
 			</div>
 			<div class="grid">
 				<div class="grid">
