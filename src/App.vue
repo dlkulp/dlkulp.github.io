@@ -24,7 +24,7 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 					<article>
 						<h3>Georgian</h3>
 						<ul>
-							<li><a target="_blank" href="/scores/Georgian/Ton Despotin.pdf">Ton Despotin</a></li>
+							<li><a target="_blank" href="/scores/Georgian/Ton Despotin - Georgian.pdf">Ton Despotin</a></li>
 							<li><a target="_blank" href="/scores/Georgian/Alleluia.pdf">Alleluia</a></li>
 							<li><a target="_blank" href="/scores/Georgian/Georgian Paschal Troparion.pdf">Paschal Troparion (Transliterated only)</a></li>
 							<li><a target="_blank" href="/scores/Georgian/Full Dismissal - split.pdf">Dismissal</a></li>
@@ -35,7 +35,7 @@ import ChurchIcon from "./components/icons/IconChurch.vue";
 					<article>
 						<h3>Early Slavic Polyphony</h3>
 						<ul>
-							<li><a target="_blank" href="/scores/Slavic Polyphony/Great Litany.pdf">Great Litany (harmonized)</a></li>
+							<li><a target="_blank" href="/scores/Slavic Polyphony/Great Litany - Theodosius - Mixed.pdf">Great Litany (harmonized)</a></li>
 							<li><a target="_blank" href="/scores/Slavic Polyphony/We Have Seen the True Light.pdf">We Have Seen the True Light</a></li>
 						</ul>
 					</article>
